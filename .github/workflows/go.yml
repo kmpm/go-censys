@@ -24,7 +24,7 @@ jobs:
         go get -u golang.org/x/lint/golint
 
     - name: Build
-      run: go build -v ./cmd/
+      run: go build -v ./cmd/censys-example
     
     - name: Run vet & lint
       run: |
