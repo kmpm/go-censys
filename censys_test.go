@@ -13,7 +13,7 @@ import (
 const (
 	idAPI     = "TEST_ID"
 	secretAPI = "TEST_SECRET"
-	stubsDir  = "stubs"
+	stubsDir  = "testdata"
 )
 
 var (
